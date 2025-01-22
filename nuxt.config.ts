@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   extends: [
-    '../user'
-  ]
+    ['github:padmanabanravikumar/ui-mf-nuxt-user#master', { install: true }]
+  ],
+  ssr: false,
 })
