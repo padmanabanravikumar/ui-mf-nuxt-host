@@ -5,5 +5,4 @@ export default defineNuxtConfig({
   extends: [
     ['github:padmanabanravikumar/ui-mf-nuxt-user#master', { install: true }]
   ],
-  ssr: false,
 })
